@@ -12,6 +12,9 @@ class Node:
         return ('CONTENT:{}\n'.format(self.value))
 
     __repr__=__str__
+    
+    "Change trial"
+    
 
 
 class ContentItem:
